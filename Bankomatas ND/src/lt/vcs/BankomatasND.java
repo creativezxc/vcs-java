@@ -31,19 +31,12 @@ public class BankomatasND {
         else{
             System.out.println("3 kartus ivedete neteisingai kortele uzblokuota kreipkites i banka");
         }
-        
         while(true){
-            
             System.out.println("Ka noresite daryti toliau?");
-            
             System.out.println("Spauskite 1 pinigams isimti");
-            
             System.out.println("Spauskite 2 balansui patikrinti");
-            
             System.out.println("Spauskite 3 kad iseiti");
-            
             int operacijos = klaviatura.nextInt();
-            
             switch(operacijos){
                 case 1:
                     System.out.print("Kiek pinigu norite isimti?");
@@ -58,7 +51,6 @@ public class BankomatasND {
                     break;
                 case 2:
                     System.out.println("Balansas yra: "+ balansas);
-
                     System.out.println("");
 
                 break;
